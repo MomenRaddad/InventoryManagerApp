@@ -1,30 +1,23 @@
-<<<<<<< HEAD
-# 🎓 Student Manager App
+# 🏪 Inventory Management System (Console App)
 
-A simple **C# console application** to manage student data and convert numeric grades into letter grades (A-F).  
-This project was created as part of my C# practice and demonstrates the use of **OOP concepts** and **LINQ logic**.
-
----
-
-## 🚀 Features
-- Convert numeric grades (0–100) into letter grades (A–F).
-- Add, search, and delete student records.
-- View all students stored in memory.
-- Simple menu-driven console interface.
+A simple console-based inventory management system built using **C# (.NET)**.  
+This application allows users to **view, add, search, and remove** products from an in-memory list.  
+It’s a beginner-friendly project designed to practice **OOP (Object-Oriented Programming)** and **data handling** concepts.
 
 ---
 
-## 🧩 Technologies Used
-- **Language:** C#
-- **Framework:** .NET 8 Console Application
-- **Concepts:** Classes, Inheritance, LINQ, Lists, Switch Expressions
+## 📦 Features
+- 🧾 View all products with details (ID, Name, Price, Quantity)  
+- 🔍 Search for a product by name (case-insensitive)  
+- ➕ Add new products dynamically  
+- ❌ Remove products from inventory by name  
+- 🖥️ Simple and interactive console-based interface  
 
----
-
-## 🧠 Classes Overview
-- `Person` → Base class containing `Name`, `Age`, and `DateOfBirth`.
-- `Student` → Inherits from `Person`, adds `StudentId` and student-specific methods.
-- `Program` → Handles user input, menu, and overall logic.
-=======
-# StudentManagerApp
->>>>>>> origin/main
+## 🧱 Project Structure
+first_project/
+│
+├── models/
+│   ├── Product.cs        # Defines the Product class (represents a single product)
+│   └── Inventory.cs      # Manages all inventory operations (Add, Search, Remove, View)
+│
+└── Program.cs            # Entry point, displays menu and interacts with the user
